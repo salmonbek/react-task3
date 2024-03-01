@@ -11,6 +11,13 @@ import Img9 from "../../../public/assets/b2.png";
 import Img10 from "../../../public/assets/b3.png";
 import Img11 from "../../../public/assets/b4.png";
 import Img12 from "../../../public/assets/b5.png";
+import D1 from "../../../public/assets/d1.png";
+import D2 from "../../../public/assets/d2.png";
+import D3 from "../../../public/assets/d4.png";
+import D4 from "../../../public/assets/d5.png";
+import D5 from "../../../public/assets/d6.png";
+
+import frame2 from "../../../public/assets/img-input.png";
 
 function index() {
   return (
@@ -100,6 +107,63 @@ function index() {
             <img src={Img12} alt="" />
           </div>
           <button className="btn-bottom">Перейти в каталог</button>
+        </div>
+      </div>
+      <div className="contact">
+        <div className="container">
+          <div className="flex">
+            <h1>Получить подробную</h1>
+            <span>информацию</span>
+          </div>
+          <p>
+            Просто заполните форму, наш менеджер свяжется вами в ближайшее время
+          </p>
+          <img src={frame2} alt="" />
+          <button>Получить информацию</button>
+        </div>
+      </div>
+      <div className="comanda">
+        <div className="container">
+          <div className="flex">
+            <h1>Наша </h1>
+            <span>команда</span>
+          </div>
+          <div className="card">
+            <div className="card-items">
+              <img src={D1} alt="" />
+              <h3>Войнич Дарья</h3>
+              <p>Заместитель директора по продажам</p>
+              <h4>+375 (17) 270-53-77 (317)</h4>
+            </div>
+            <div className="card-items">
+              <img src={D2} alt="" />
+              <h3>+375 (17) 270-53-77 (317)</h3>
+              <p>Начальник отдела сопровождения</p>
+              <h4>+375 (17) 270-53-77 </h4>
+              <h5>k.melnichenko@leangroup.by</h5>
+            </div>
+            <div className="card-items">
+              <img src={D3} alt="" />
+              <h3>Дмитроченко Дмитрий</h3>
+              <p>Начальник отдела допечатной подготовки</p>
+              <h4>+375 (17) 270-53-77 (333)</h4>
+              <h5>dmitrochenko@leangroup.by</h5>
+            </div>
+            <div className="card-items">
+              <img src={D4} alt="" />
+              <h3>Антух Евгений</h3>
+              <p>Начальник отдела снабжения</p>
+              <h4> +375 44 764-16-28</h4>
+              <h5>j.antuh@leangroup.by</h5>
+            </div>
+            <div className="card-items">
+              <img src={D5} alt="" />
+              <h3>Мисник Елена</h3>
+              <p>Специалист по работе с клиентами</p>
+              <h4> +375 29 329-34-03</h4>
+              <h5>e.misnik@leangroup.by</h5>
+            </div>
+          </div>
         </div>
       </div>
     </div>
