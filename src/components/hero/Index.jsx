@@ -16,8 +16,10 @@ import D2 from "../../../public/assets/d2.png";
 import D3 from "../../../public/assets/d4.png";
 import D4 from "../../../public/assets/d5.png";
 import D5 from "../../../public/assets/d6.png";
-
 import frame2 from "../../../public/assets/img-input.png";
+import A1 from "../../../public/assets/a1.png";
+import A2 from "../../../public/assets/a2.png";
+import A3 from "../../../public/assets/a3.png";
 
 function index() {
   return (
@@ -166,6 +168,32 @@ function index() {
           </div>
         </div>
       </div>
+      <div className="news">
+        <div className="container">
+          <h1>Новости</h1>
+          <div className="card">
+            <div className="card-items">
+              <img src={A1} alt="" />
+              <h4>2022</h4>
+              <p>ЛеанГрупп серебряный призер EcoVadis!</p>
+            </div>
+            <div className="card-items">
+              <img src={A2} alt="" />
+              <h4>21.01.2022</h4>
+              <p>ЛеанГрупп серебряный призер EcoVadis!</p>
+            </div>
+            <div className="card-items">
+              <img src={A3} alt="" />
+              <h4>16.12.2021</h4>
+              <p>Туба, как вид упаковки</p>
+            </div>
+          </div>
+          <button>Все новости</button>
+        </div>
+      </div>
+      <footer className="footer">
+        <div className="container"></div>
+      </footer>
     </div>
   );
 }

@@ -337,6 +337,69 @@ button {
   color: #ef7c00;
 }
 
+.news {
+  padding-top: 130px;
+  padding-bottom: 84px;
+}
+.news .container button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  color: #ef7c00;
+  border: 1px solid #ef7c00;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.news .container h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #2c2d2e;
+  text-align: center;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.news .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.news .container .card img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.news .container .card h4 {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #919399;
+  margin-bottom: 8px;
+}
+.news .container .card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2c2d2e;
+}
+
 @media (max-width: 500px) {
   .hero .container .hero-left button {
     display: block;
@@ -353,6 +416,12 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .news .container .card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
   }
 }
 @media (max-width: 900px) {
