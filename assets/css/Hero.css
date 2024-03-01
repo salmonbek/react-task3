@@ -401,7 +401,17 @@ button {
 }
 
 .footer {
+  padding-bottom: 30px;
   background-color: #e9eaeb;
+}
+.footer .container p {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0px;
+  max-width: 336px;
+  text-align: left;
+  color: #919399;
 }
 .footer .container .flex2 {
   display: -webkit-box;
@@ -419,6 +429,7 @@ button {
   font-weight: 600;
   line-height: 28px;
   letter-spacing: 0px;
+  cursor: pointer;
   color: #2c2d2e;
   margin-bottom: 24px;
   text-align: left;
@@ -428,6 +439,7 @@ button {
   margin-bottom: 13px;
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
@@ -436,6 +448,7 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+  cursor: pointer;
   color: #2c2d2e;
   margin-bottom: 16px;
   letter-spacing: 0px;
@@ -482,6 +495,12 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+  }
+  .footer .container .flex2 {
+    gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media (max-width: 900px) {
