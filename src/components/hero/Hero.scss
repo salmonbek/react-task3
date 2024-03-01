@@ -70,7 +70,13 @@ button {
   padding-top: 700px;
   .container {
     .company-flex {
+      .copmany-flex-left {
+        img {
+          width: 100%;
+        }
+      }
       display: grid;
+      gap: 30px;
       grid-template-columns: repeat(2, 1fr);
       &-left {
         p {
@@ -111,6 +117,42 @@ button {
     }
   }
 }
+.certificate {
+  padding-top: 100px;
+  .container {
+    .img-flex {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-bottom: 40px;
+      h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #2c2d2e;
+      }
+      span {
+        color: #ef7c00;
+
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+    }
+  }
+}
 
 @media (max-width: 500px) {
   .hero {
@@ -120,6 +162,24 @@ button {
           display: block;
           margin: 0 auto;
         }
+      }
+    }
+  }
+  .company {
+    .container {
+      .company-flex {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .company {
+    padding-top: 490px;
+    .container {
+      .company-flex {
+        grid-template-columns: 1fr;
       }
     }
   }

@@ -75,7 +75,11 @@ button {
 }
 .company .container .company-flex {
   display: grid;
+  gap: 30px;
   grid-template-columns: repeat(2, 1fr);
+}
+.company .container .company-flex .copmany-flex-left img {
+  width: 100%;
 }
 .company .container .company-flex-left p {
   color: #2c2d2e;
@@ -114,9 +118,68 @@ button {
   text-align: center;
 }
 
+.certificate {
+  padding-top: 100px;
+}
+.certificate .container .img-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.certificate .container .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.certificate .container .flex h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #2c2d2e;
+}
+.certificate .container .flex span {
+  color: #ef7c00;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
 @media (max-width: 500px) {
   .hero .container .hero-left button {
     display: block;
     margin: 0 auto;
+  }
+  .company .container .company-flex {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 900px) {
+  .company {
+    padding-top: 490px;
+  }
+  .company .container .company-flex {
+    grid-template-columns: 1fr;
   }
 }

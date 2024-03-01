@@ -1,6 +1,11 @@
 import "./Hero.scss";
 import Img from "../../../public/assets/social.png";
 import Img2 from "../../../public/assets/video (1).png";
+import Img3 from "../../../public/assets/s1.png";
+import Img4 from "../../../public/assets/s2.png";
+import Img5 from "../../../public/assets/s3.png";
+import Img6 from "../../../public/assets/s4.png";
+import Img7 from "../../../public/assets/s5.png";
 
 function index() {
   return (
@@ -33,7 +38,7 @@ function index() {
             <div className="copmany-flex-left">
               <img src={Img2} alt="" />
             </div>
-            <div className="copmany-flex-left">
+            <div className="copmany-flex-right">
               <p>
                 Компания ООО «ЛеанГрупп» начала свою деятельность в 1999 году и
                 на сегодняшний день является ведущей компанией по производству
@@ -59,8 +64,28 @@ function index() {
       <div className="certificate">
         <div className="container">
           <div className="flex">
-            <h1></h1>
-            <span></span>
+            <h1>Качество продукции подтверждают</h1>
+            <span>сертификаты</span>
+          </div>
+          <div className="img-flex">
+            <img src={Img3} alt="" />
+            <img src={Img4} alt="" />
+            <img src={Img5} alt="" />
+            <img src={Img6} alt="" />
+            <img src={Img7} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="product">
+        <div className="container">
+          <div className="flex">
+            <h1>Наша </h1>
+            <span>продукция</span>
+          </div>
+          <div className="btns">
+            <button className="btn1">Экструзионные тубы</button>
+            <button className="btn2">Экструзионные тубы</button>
+            <button className="btn3">Перейти в каталог</button>
           </div>
           <div className="img-flex">
             <img src="" alt="" />
@@ -69,6 +94,7 @@ function index() {
             <img src="" alt="" />
             <img src="" alt="" />
           </div>
+          <button className="btn-bottom">Перейти в каталог</button>
         </div>
       </div>
     </div>
