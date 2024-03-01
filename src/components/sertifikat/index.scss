@@ -1,0 +1,87 @@
+.sertifikat {
+  display: flex;
+  align-items: center;
+  .left {
+    position: absolute;
+    right: 100px;
+    margin-top: 30px;
+    z-index: 2;
+  }
+  .right {
+    position: absolute;
+    left: 100px;
+    margin-top: 30px;
+    z-index: 2;
+  }
+  h2 {
+    font-size: 32px;
+    color: var(--text);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    span {
+      color: #ef7c00;
+    }
+  }
+}
+
+.sertifikat_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .sertifikat {
+    .left {
+      right: 20px;
+    }
+    .right {
+      left: 20px;
+    }
+  }
+  .sertifikat_item {
+    overflow: hidden;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    img {
+      margin-left: 20px;
+    }
+    img:nth-child(1) {
+      margin: 0;
+    }
+  }
+  .sertifikat_item::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sertifikat {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sertifikat {
+    margin-top: 300px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .sertifikat {
+    margin-top: 380px;
+    .left {
+      margin-top: 200px;
+    }
+    .right {
+      margin-top: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sertifikat {
+    margin-top: 430px;
+  }
+}

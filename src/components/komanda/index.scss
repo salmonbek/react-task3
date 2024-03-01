@@ -1,0 +1,67 @@
+.comanda {
+  h2 {
+    transition: 0.3s;
+    font-size: 32px;
+    color: var(--text);
+    text-align: center;
+    span {
+      color: rgb(240, 124, 0);
+    }
+  }
+  .comanda_item {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .card {
+      width: 210px;
+      height: 340px;
+      p {
+        padding-top: 10px;
+        text-align: center;
+        color: var(--text);
+      }
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+  .btn {
+    width: 165px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #ef7c00;
+    background-color: white;
+    border: 1px solid #ef7c00;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .comanda_item {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .comanda {
+    h2 {
+      padding-top: 190px;
+    }
+  }
+}
+@media screen and (max-width: 442px) {
+  .comanda_item {
+    justify-content: center;
+    .card {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
