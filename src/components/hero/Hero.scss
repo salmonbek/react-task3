@@ -65,3 +65,62 @@ button {
     }
   }
 }
+
+.company {
+  padding-top: 700px;
+  .container {
+    .company-flex {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      &-left {
+        p {
+          //styleName: fontBody;
+          color: #2c2d2e;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+    }
+    .flex {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    h1 {
+      //styleName: H1;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #2c2d2e;
+    }
+    span {
+      color: #ef7c00;
+      //styleName: H1;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    .container {
+      .hero-left {
+        button {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

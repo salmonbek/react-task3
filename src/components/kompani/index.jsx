@@ -1,12 +1,13 @@
 import "./index.scss";
-class Kompani extends Component {
-  render() {
-    return (
-      <>
-        <div></div>
-      </>
-    );
-  }
+
+function index() {
+  return (
+    <div>
+      <section>
+        <div className="container"></div>
+      </section>
+    </div>
+  );
 }
 
-export default Kompani;
+export default index;
