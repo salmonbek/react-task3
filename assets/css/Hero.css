@@ -1,5 +1,7 @@
 button {
   cursor: pointer;
+  background: transparent;
+  border: none;
 }
 
 .dark.hero {
@@ -164,6 +166,110 @@ button {
   line-height: 40px;
   letter-spacing: 0px;
   text-align: center;
+}
+
+.product {
+  padding-top: 100px;
+}
+.product .container .btn-bottom {
+  display: block;
+  margin: 0 auto;
+  color: #ef7c00;
+  border: 1px solid #ef7c00;
+  font-size: 15px;
+  margin-top: 30px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 7px;
+}
+.product .container .img-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+.product .container .img-flex img {
+  max-width: 100%;
+}
+.product .container .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 36px;
+}
+.product .container .flex h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #2c2d2e;
+}
+.product .container .flex span {
+  color: #ef7c00;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.product .container .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 32px;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.product .container .btns .btn1 {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ef7c00;
+  padding: 12px 20px;
+  border: 1px solid rgba(0, 16, 61, 0.1215686275);
+  border-radius: 10px;
+  background: transparent;
+}
+.product .container .btns .btn2 {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  padding: 12px 20px;
+  background: #ef7c00;
+  border: none;
+  border-radius: 10px;
 }
 
 @media (max-width: 500px) {

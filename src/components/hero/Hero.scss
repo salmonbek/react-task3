@@ -1,5 +1,7 @@
 button {
   cursor: pointer;
+  background: transparent;
+  border: none;
 }
 .dark.hero {
   background-color: red;
@@ -149,6 +151,90 @@ button {
         line-height: 40px;
         letter-spacing: 0px;
         text-align: center;
+      }
+    }
+  }
+}
+.product {
+  padding-top: 100px;
+  .container {
+    .btn-bottom {
+      display: block;
+      margin: 0 auto;
+      color: #ef7c00;
+      border: 1px solid #ef7c00;
+      font-size: 15px;
+      margin-top: 30px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 7px;
+    }
+    .img-flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      img {
+        max-width: 100%;
+      }
+    }
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 36px;
+      h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #2c2d2e;
+      }
+      span {
+        color: #ef7c00;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      margin-bottom: 32px;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      .btn1 {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #ef7c00;
+        padding: 12px 20px;
+        border: 1px solid #00103d1f;
+        border-radius: 10px;
+        background: transparent;
+      }
+      .btn2 {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: white;
+        padding: 12px 20px;
+        background: #ef7c00;
+        border: none;
+        border-radius: 10px;
       }
     }
   }

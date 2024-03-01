@@ -6,6 +6,11 @@ import Img4 from "../../../public/assets/s2.png";
 import Img5 from "../../../public/assets/s3.png";
 import Img6 from "../../../public/assets/s4.png";
 import Img7 from "../../../public/assets/s5.png";
+import Img8 from "../../../public/assets/b1.png";
+import Img9 from "../../../public/assets/b2.png";
+import Img10 from "../../../public/assets/b3.png";
+import Img11 from "../../../public/assets/b4.png";
+import Img12 from "../../../public/assets/b5.png";
 
 function index() {
   return (
@@ -85,14 +90,14 @@ function index() {
           <div className="btns">
             <button className="btn1">Экструзионные тубы</button>
             <button className="btn2">Экструзионные тубы</button>
-            <button className="btn3">Перейти в каталог</button>
+            <button className="btn1">Перейти в каталог</button>
           </div>
           <div className="img-flex">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src={Img8} alt="" />
+            <img src={Img9} alt="" />
+            <img src={Img10} alt="" />
+            <img src={Img11} alt="" />
+            <img src={Img12} alt="" />
           </div>
           <button className="btn-bottom">Перейти в каталог</button>
         </div>
