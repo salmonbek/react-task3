@@ -400,6 +400,66 @@ button {
   color: #2c2d2e;
 }
 
+.footer {
+  background-color: #e9eaeb;
+}
+.footer .container .flex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 140px;
+}
+.footer .container .flex2 h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #2c2d2e;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.footer .container .flex2 h5 {
+  color: #ef7c00;
+  margin-bottom: 13px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.footer .container .flex2 h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2c2d2e;
+  margin-bottom: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.footer .container .flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 26px;
+}
+.footer .container hr {
+  color: grey;
+  margin-bottom: 13px;
+}
+
 @media (max-width: 500px) {
   .hero .container .hero-left button {
     display: block;

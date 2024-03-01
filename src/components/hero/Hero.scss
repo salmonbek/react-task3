@@ -357,6 +357,58 @@ button {
   }
 }
 
+.footer {
+  background-color: #e9eaeb;
+  .container {
+    p {
+    }
+    .flex2 {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 140px;
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        color: #2c2d2e;
+        margin-bottom: 24px;
+        text-align: left;
+      }
+      h5 {
+        color: #ef7c00;
+        margin-bottom: 13px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+      h2 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #2c2d2e;
+        margin-bottom: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+    }
+    .flex1 {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 26px;
+    }
+    hr {
+      color: grey;
+      margin-bottom: 13px;
+    }
+  }
+}
+
 @media (max-width: 500px) {
   .hero {
     .container {

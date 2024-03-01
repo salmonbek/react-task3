@@ -20,6 +20,8 @@ import frame2 from "../../../public/assets/img-input.png";
 import A1 from "../../../public/assets/a1.png";
 import A2 from "../../../public/assets/a2.png";
 import A3 from "../../../public/assets/a3.png";
+import Logo from "../../../public/assets/logo.png";
+import Im from "../../../public/assets/soacial2.png";
 
 function index() {
   return (
@@ -192,7 +194,54 @@ function index() {
         </div>
       </div>
       <footer className="footer">
-        <div className="container"></div>
+        <div className="container">
+          <div className="flex1">
+            <img src={Logo} alt="" />
+            <img src={Im} alt="" />
+          </div>
+          <hr className="hr" />
+          <div className="flex2">
+            <div>
+              <h1>Продукция</h1>
+              <h2>Ламинатные тубы</h2>
+              <h2>Экструзионные тубы</h2>
+              <h2>Другая упаковка</h2>
+            </div>
+            <div>
+              <h1>Компания</h1>
+              <h2>О нас</h2>
+              <h2>Наша команда</h2>
+              <h2>Сертификаты</h2>
+            </div>
+            <div>
+              <h1>Разделы</h1>
+              <h2>Контакты</h2>
+              <h2>Новости</h2>
+              <h2>Вакансии</h2>
+            </div>
+            <div>
+              <h5>Беларусь</h5>
+              <h2>+375 (17) 270 53 77</h2>
+              <h2>+375 (17) 270 53 78</h2>
+              <br />
+              <h5>Москва</h5>
+              <h2>+7 (495) 280 73 44</h2>
+              <h2>+7 (495) 280 73 44</h2>
+            </div>
+            <div>
+              <h5>Европа</h5>
+              <h2>+48 73 1111 044</h2>
+              <br />
+              <br />
+              <h5>Екатеринбург</h5>
+              <h2>+7 (343) 346 82 06</h2>
+            </div>
+          </div>
+          <p>
+            © 2022 Leangroup. All Rights Reserved. Разработка и продвижение
+            сайтов SkyWeb.by
+          </p>
+        </div>
       </footer>
     </div>
   );
